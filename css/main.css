@@ -77,7 +77,49 @@ img {
     line-height: 1.4;
   }
 
+  section {
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+  }
+
+  .whole {
+    display: inline-block;
+    width: 48%;
+  }
+
+  .img-flex {
+    width: 48%;
+  }
+
 }
 
+@media only screen and (min-width: 60em) {
 
-- *Standard media query widths:* `38em`, `60em`, `90em`
+  html {
+     font-size: 120%;
+     line-height: 1.5;
+   }
+
+  .img-flex {
+    padding-bottom: 0;
+    vertical-align: middle;
+  }
+
+  .whole {
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  section {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+}
